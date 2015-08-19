@@ -1,0 +1,106 @@
+html { 
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+#map-canvas {
+    height: 100%;
+    width: 100%;
+	margin-right: 0%;
+}
+
+#panel {
+	position: absolute;
+	left: 25px;
+	top: 25px;
+	margin-left: 0px;
+	z-index: 1;
+	background: #31B404;
+	opacity: 0.8;
+	font-size:16px;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid #999;
+	margin: 10px;
+	border-radius: 6px;
+	width: 300px;
+}
+.Select {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 220px;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 1;
+	border: 0;
+	border-radius: 4px;
+	height: 28px;
+	cursor: pointer;
+	text-overflow: '';
+	max-width: 150px;
+}
+.Select option{
+	width: 220px;
+}
+.Checkbox{
+    width:14px;
+    height:14px;
+    margin:1px 4px 0 0;
+    vertical-align:bottom;
+    cursor:pointer;
+    margin-top: 8px;
+}
+.button{
+	margin-left: 20px;
+	border-radius: 4px;
+	text-decoration: none;
+	color:#31B404;
+	padding: 4px;
+	background-color: #003300;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#legend{
+	background: #31B404;
+	padding: 10px;
+	opacity: 0.8;
+	border-radius: 5px;
+}
+.lgdIcon {
+	display: inline;
+	border: 1px solid;
+	height: 12px;
+	width: 12px;
+	margin-right: 20px;
+	float: left;
+}
+.red {
+	background: #FF3333;
+}
+.yellow {
+	background: #FFFF4D;
+}
+.green {
+	background: #4DDB4D;
+}
+.blue {
+	background: #4747FF;
+}
+.purple {
+	background: #AD5CFF;
+}
+.brown {
+	background: #A37547;
+}
+.grey {
+	background: #969F9F;
+}
+.white {
+	background: #FFFFFF;
+}
+.turquoise{
+	background: #7FFFD4;
+}
